@@ -1,0 +1,12 @@
+@import '../../styles/variables.scss';
+
+.navbar-list-item {
+    margin: auto 1rem;
+
+    .navbar-list-element {
+        text-transform: uppercase;
+        font-family: $font-family-base;
+        font-weight: $font-weight-semi-bold;
+        font-size: $font-size-small;
+    }
+}

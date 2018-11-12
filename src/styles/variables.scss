@@ -152,10 +152,6 @@ $time-duration: 						0.25s;
 .fa-spotify,
 .fa-twitter,
 .fa-whatsapp,
-.fa-youtube-play {
-	@include transition-simple;
-	&:hover {color: $color-white;}
-}
 
 .fa-github-alt:hover {background: $color-github !important;}
 .fa-pinterest-p:hover {background: $color-pinterest !important;}

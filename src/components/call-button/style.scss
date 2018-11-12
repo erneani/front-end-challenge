@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.call-button {
+    margin: auto 2rem;
+    text-transform: uppercase;
+    font-size: $font-size-base;
+    font-family: $font-family-base;
+    font-weight: $font-weight-semi-bold;
+}

@@ -5,17 +5,12 @@ import CallButton from '../call-button/CallButton';
 import './style.scss';
 
 export default class Navbar extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = ["Something", "Something more", "I am beautiful"];
-    }
-    
     render () {
         return(
             <ul className="navbar-list">
-                <NavbarItem label="Nossos veículos" />
+                <NavbarItem label="Nossos veículos" icon="true"/>
                 <NavbarItem label="Serviços" />
-                <NavbarItem label="Vendas diretas" />
+                <NavbarItem label="Vendas diretas" icon="true"/>
                 <CallButton label="Telefones"/>
             </ul>
         )

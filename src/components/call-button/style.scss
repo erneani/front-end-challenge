@@ -2,7 +2,10 @@
 
 .call-button {
     margin: auto 2rem;
+    padding: 10px 15px;
+    border: 2px solid $color-font;
     text-transform: uppercase;
+    color: $color-font;
     font-size: $font-size-base;
     font-family: $font-family-base;
     font-weight: $font-weight-semi-bold;

@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar';
+import HeaderLogo from '../header-logo/HeaderLogo';
 
 import './style.scss'
 
@@ -8,11 +9,11 @@ export default class Header extends React.Component {
         return (
             <div className="main-header">
                 {/* Logo */}
-                <h1>First element</h1>
+                <HeaderLogo source="logo_Logo-Grand-Motors.png" />
                 {/* Navbar */}
                 <Navbar />
                 {/* Logo */}
-                <h1>Third element</h1>
+                <HeaderLogo source="logo_brand_horizontal_10.png" />
             </div>
         )
     }

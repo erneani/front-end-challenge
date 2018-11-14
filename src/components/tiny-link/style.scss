@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+.tiny-link {
+    font-family: $font-family-base;
+    font-size: $font-size-wee;
+    font-weight: $font-weight-normal;
+    color: $link-color;
+    transition: $time-duration all;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: $link-hover-decoration;
+    }
+}

@@ -1,0 +1,7 @@
+@import '../../styles/variables.scss';
+
+.form-list {
+    display: flex;
+    justify-content: space-between;
+    margin: $margin-small 0 $margin-small;
+}

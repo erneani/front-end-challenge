@@ -1,0 +1,22 @@
+@import '../../styles/variables.scss';
+
+.form-checkbox-wrapper {
+    margin: $margin-tiny 0;
+    position: relative;
+
+    input {
+        visibility: hidden;
+        z-index: $z-index-ahead;
+    }
+
+    .form-checkbox-square {
+        height: 15px;
+        width: 15px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: $color-font;
+        border-radius: $border-radius;
+        z-index: $z-index-base;
+    }
+}

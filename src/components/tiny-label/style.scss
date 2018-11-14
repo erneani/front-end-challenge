@@ -1,0 +1,8 @@
+@import '../../styles/variables.scss';
+
+.tiny-label {
+    font-family: $font-family-base;
+    font-size: $font-size-wee;
+    font-weight: $font-weight-normal;
+    color: $color-font;
+}

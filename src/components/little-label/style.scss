@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.little-label {
+    font-family: $font-family-base;
+    font-weight: $font-weight-light;
+    font-size: $font-size-h6;
+    color: $color-font;
+    margin: 0;
+}

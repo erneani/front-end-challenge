@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.commom-label {
+    font-family: $font-family-base;
+    font-size: $font-size-h6;
+    font-weight: $font-weight-semi-bold;
+    color: $color-font;
+    margin: $margin-tiny 0;
+}

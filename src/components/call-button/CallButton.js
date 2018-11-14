@@ -8,7 +8,7 @@ export default class CallButton extends React.Component {
     render() {
         return(
             <div className="call-button">
-                <FontAwesomeIcon icon={ faPhone } rotation={ 90 }/>  { this.props.label }  <FontAwesomeIcon icon={ faAngleDown } />
+                <FontAwesomeIcon icon={ faPhone } rotation={ 90 }/>  { this.props.label }      <FontAwesomeIcon icon={ faAngleDown } />
             </div>
         )
     }

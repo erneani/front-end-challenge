@@ -1,0 +1,22 @@
+@import '../../styles/variables.scss';
+
+.form-submit-button {
+    margin: $margin-small 0;
+    padding: $padding-small;
+    font-size: $font-size-base;
+    font-family: $font-family-base;
+    font-weight: $font-weight-bold;
+    background-color: $color-primary-base;
+    color: $color-font;
+    width: 100%;
+    border: none;
+    border-radius: $border-radius;
+    box-shadow: 0px 3px 5px $color-darkness;
+    transition: $time-duration ease-in;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $color-primary-light;
+        box-shadow: 0px 0px 0px $color-darkness; 
+    }
+}

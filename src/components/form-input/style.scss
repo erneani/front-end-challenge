@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+.form-input {
+    margin: $margin-tiny 0 $margin-wee;
+    width: 93%;
+    padding: $padding-wee;
+    font-size: $font-size-small;
+    font-family: $font-family-base;
+    font-weight: $font-weight-normal;
+    background: $color-background-dark;
+    color: $color-font;
+    border: $border;
+    border-radius: $border-radius;
+}

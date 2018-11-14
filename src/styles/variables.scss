@@ -1,6 +1,6 @@
 @import url('//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 /* COLOR */
-$color-primary-base: 				#04669c;
+$color-primary-base: 				#b71d3e;
 $color-primary-dark: 				darken($color-primary-base, 12%);
 $color-primary-light: 			lighten($color-primary-base, 15%);
 
@@ -11,7 +11,7 @@ $color-secondary-light: 		lighten($color-secondary-base, 15%);
 $color-gray-base:           #242424;
 $color-gray-darker:         #2a2a2a;
 $color-gray-dark:           #797979;
-$color-gray:                #c6c6c6;
+$color-gray:                hsl(0, 0%, 78%);
 $color-gray-light:          #eaeaea;
 $color-gray-lighter:        #f4f4f4;
 $color-bluish-gray:        	#273341;
@@ -82,8 +82,8 @@ $font-weight-bold: 					700;
 $font-weight-extra-bold: 		800;
 $font-weight-ultra-bold: 		900;
 
-$text-color:        				$color-gray-darker;
-$link-color:            		$color-primary-base;
+$text-color:        			$color-gray-darker;
+$link-color:            		$color-white;
 $link-hover-color:      		$color-primary-dark;
 $link-hover-decoration: 		underline;
 

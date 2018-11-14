@@ -1,0 +1,35 @@
+@import '../../styles/variables.scss';
+
+.form-radio-wrapper {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+
+    .form-radio-input {
+        display: none;
+
+        &:checked + .form-radio-circle {
+            background-color: $color-background-dark;
+        }
+    }
+
+    .form-radio-circle {
+        background-color: $color-background-dark;
+        border: 2px solid $color-font;
+        display: inline-flex;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        border-radius: 50%;
+        left: 0;
+        top: 0;
+    }
+
+    .form-radio-label {
+        font-family: $font-family-base;
+        font-size: $font-size-small;
+        font-weight: $font-weight-normal;
+        color: $color-font;
+        margin-left: $margin-base;
+    }
+}

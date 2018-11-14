@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.title-label {
+    font-family: $font-family-base;
+    font-size: $font-size-h4;
+    font-weight: $font-weight-normal;
+    color: $color-font;
+    margin: 0;
+}

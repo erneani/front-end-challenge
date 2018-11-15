@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.product-title {
+    font-family: $font-family-base;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-h1;
+    padding: 0;
+    margin: 0;
+}

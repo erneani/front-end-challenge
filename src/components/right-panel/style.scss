@@ -1,2 +1,6 @@
 @import '../../styles/variables.scss';
 
+.base-right-panel {
+    width: 59%;
+    padding: $padding-middle $padding-base; 
+}

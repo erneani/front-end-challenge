@@ -6,5 +6,11 @@
     padding: 0 0.9375rem;
     display: flex;
     justify-content: center;
-    position: fixed;
+    z-index: $z-index-force;
+    transition: $time-duration;
+}
+
+.scrolled-header {
+    background-color: $color-background-dark;
+    height: 3.5rem;
 }

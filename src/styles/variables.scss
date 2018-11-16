@@ -19,6 +19,9 @@ $color-white:        				#fff;
 $color-black:        				#1c1c1c;
 $color-darkness: 						#141518;
 
+$color-highlight:						#d33c5c;
+$color-highlight-dark:      #523036;
+
 $color-success:         		#2d9c5d;
 $color-info:            		#5bc0de;
 $color-warning:         		#FFA628;
@@ -67,6 +70,7 @@ $font-size-wee:         		10px;
 $font-size-large:         	ceil($font-size-base * 1.25);		  // 18px
 $font-size-extra-large:     ceil($font-size-base * 1.571); 		// 22px
 $font-size-ultra-large:     ceil($font-size-base * 2.285);    // 32px
+$font-size-ultra-extra-large: ceil($font-size-base * 2.714);  // 38px
 $font-size-h1:            	floor($font-size-base * 2.428);		// 34px
 $font-size-h2:            	floor($font-size-base * 2.15);	  // 30px
 $font-size-h3:            	ceil($font-size-base * 1.7);	  	// 24px

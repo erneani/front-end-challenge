@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.call-title {
+  font-family: $font-family-base;
+  font-weight: $font-weight-light;
+  font-size: $font-size-h3;
+  margin: $margin-tiny 0;
+  color: $color-font;
+}

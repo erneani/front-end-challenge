@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.call-spotlight {
+  font-family: $font-family-base;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-ultra-extra-large;
+  margin: $margin-wee 0;
+  color: $color-highlight;
+}

@@ -1,0 +1,8 @@
+@import '../../styles/variables.scss';
+
+.calls-base {
+  background-color: $color-highlight-dark;
+  justify-content: space-around;
+  display: flex;
+  padding: $padding-big 0;
+}

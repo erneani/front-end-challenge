@@ -1,8 +1,12 @@
 @import '../../styles/variables.scss';
 
-.showcase-base { 
-    height: 800px;
+.showcase-base {
+    z-index: $z-index-base;
+    height: auto;
     background-color: $color-background-base;
+    background-image: url('../../images/bg-image.jpg');
+    background-position: center center;
+    padding-bottom: $padding-base;
     padding-top: 5rem;
     position: relative;
     display: flex;

@@ -1,6 +1,10 @@
 @import '../../styles/variables.scss';
 
 .social-letter-wrapper {
+  transform: translateY(10px);
+  display: inline-flex;
+  margin-right: $margin-tiny;
+
   .social-letter-triangle {
     width: 0;
     height: 0;

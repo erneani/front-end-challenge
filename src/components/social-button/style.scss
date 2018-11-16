@@ -7,6 +7,7 @@
   font-size: $font-size-small;
   font-weight: $font-weight-semi-bold;
   padding: $padding-tiny;
+  display: inline-flex;
   color: $color-font;
-  margin: auto 0;
+  margin-right: $margin-tiny;
 }

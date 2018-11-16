@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.big-price-label {
+  font-family: $font-family-base;
+  font-weight: $font-weight-semi-bold;
+  font-size: $font-size-h3;
+  color: $color-font;
+  margin-bottom: $margin-tiny;
+}

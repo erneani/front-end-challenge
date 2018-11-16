@@ -4,7 +4,7 @@ import ProductSubtitle from '../product-subtitle/ProductSubtitle';
 
 import './style.scss';
 
-export default class ProductName extends React.Component {
+export default class ProductContainer extends React.Component {
     render() {
         return (
             <div className="product-container">

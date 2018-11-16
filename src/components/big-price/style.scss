@@ -1,0 +1,8 @@
+@import '../../styles/variables.scss';
+
+.big-price {
+  font-family: $font-family-base;
+  font-weight: $font-weight-semi-bold;
+  font-size: $font-size-ultra-large;
+  color: $color-font;
+}

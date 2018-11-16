@@ -1,0 +1,10 @@
+@import '../../styles/variables.scss';
+
+.warning-label {
+  font-family: $font-family-base;
+  font-weight: $font-weight-semi-bold;
+  font-size: $font-size-wee;
+  color: $color-font;
+  margin: $padding-wee 0;
+  width: 90%;
+}

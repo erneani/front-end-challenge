@@ -1,6 +1,10 @@
 @import '../../styles/variables.scss';
 
 .base-right-panel {
-    width: 59%;
+    justify-content: space-between;
+    flex-direction: column;
     padding: $padding-middle $padding-base; 
+    display: flex;
+    height: 75%;
+    width: 59%;
 }

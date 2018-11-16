@@ -1,0 +1,20 @@
+@import '../../styles/variables.scss';
+
+.social-letter-wrapper {
+  .social-letter-triangle {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid $color-darkness;
+  }
+
+  .social-letter {
+    background-color: $color-white;
+    border-radius: $border-radius;
+    font-family: $font-family-base;
+    font-size: $font-size-small;
+    padding: $padding-tiny;
+    color: $color-darkness;
+  }
+}

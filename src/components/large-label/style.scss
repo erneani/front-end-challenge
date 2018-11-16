@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.large-label {
+  font-family: $font-family-base;
+  font-size: $font-size-large;
+  font-weight: $font-weight-semi-bold;
+  color: $color-font;
+  margin: $margin-large 0;
+}

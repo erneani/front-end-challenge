@@ -9,8 +9,10 @@ export default class Showcase extends React.Component {
     render() {
         return (
             <div className="showcase-base">
+                <div className="showcase-base-filter">
                 <LeftPanel />
                 <RightPanel />
+                </div>
                 { /*<BackgroundVideo url="https://vimeo.com/22454502" /> */}
             </div> 
         )

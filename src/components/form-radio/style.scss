@@ -9,12 +9,12 @@
         display: none;
 
         &:checked + .form-radio-circle {
-            background-color: $color-background-dark;
+            background-color: $color-darkness-high-opacity;
         }
     }
 
     .form-radio-circle {
-        background-color: $color-background-dark;
+        background-color: $color-darkness-high-opacity;
         border: 2px solid $color-font;
         display: inline-flex;
         width: 15px;

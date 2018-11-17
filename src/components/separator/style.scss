@@ -1,0 +1,6 @@
+@import '../../styles/index.scss';
+
+.separator {
+  border: 1px solid $color-highlight-light;
+  margin: -$margin-extra 0 -$margin-base;
+}

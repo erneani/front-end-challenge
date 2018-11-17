@@ -9,4 +9,11 @@
     font-size: $font-size-base;
     font-family: $font-family-base;
     font-weight: $font-weight-semi-bold;
+    transition: $time-duration all;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $color-white;
+        color: $color-darkness;
+    }
 }

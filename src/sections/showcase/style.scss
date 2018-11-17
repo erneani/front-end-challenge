@@ -6,8 +6,12 @@
     background-color: $color-background-base;
     background-image: url('../../images/bg-image.jpg');
     background-position: center center;
-    padding-bottom: $padding-base;
-    padding-top: 5rem;
-    position: relative;
-    display: flex;
+
+    .showcase-base-filter {
+        background-color: $color-darkness-low-opacity;
+        padding-bottom: $padding-base;
+        padding-top: 5rem;
+        position: relative;
+        display: flex;
+    }
 }

@@ -8,7 +8,7 @@ export default class ProductContainer extends React.Component {
     render() {
         return (
             <div className="product-container">
-                <ProductTitle label="Renault Sandero 2017" />
+                <ProductTitle label="Etios Hatch 2017" />
                 <ProductSubtitle label="X 1.3 Manual" />
             </div>
         )

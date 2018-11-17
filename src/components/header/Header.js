@@ -18,13 +18,11 @@ export default class Header extends React.Component {
 
     handleScroll = () => {
         if (window.scrollY > 0) {
-            console.log("Scrolled...")
             this.setState({
                 pageScrolled: true,
             })
         }
         else if (window.scrollY <= 0) {
-            console.log("Nom scrolled...")
             this.setState({
                 pageScrolled: false,
             })

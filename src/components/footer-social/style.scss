@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+
+.footer-social-media {
+  .footer-social-media-list {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+
+    .social-media-list-element {
+      margin-right: $margin-tiny;
+    }
+  }
+}

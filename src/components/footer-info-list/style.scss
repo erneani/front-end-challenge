@@ -1,0 +1,10 @@
+@import '../../styles/index.scss';
+
+.footer-info-list {
+  padding: 0;
+  text-align: center;
+
+  .footer-info-list-element {
+    margin: 0 $margin-tiny;
+  }
+}

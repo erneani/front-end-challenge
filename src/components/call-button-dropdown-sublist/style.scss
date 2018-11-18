@@ -1,0 +1,18 @@
+@import '../../styles/variables.scss';
+
+.dropdown-item-list {
+  background-color: $color-primary-base;
+  margin-bottom: -$margin-small;
+  margin-right: -$margin-base;
+  margin-left: -$margin-base;
+  margin-top: $margin-wee;
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  height: 0;
+}
+
+.dropdown-item-list-show {
+  height: auto;
+}

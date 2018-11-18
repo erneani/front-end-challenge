@@ -1,0 +1,7 @@
+@import '../../styles/variables.scss';
+
+.dropdown-item-list-element {
+  border-bottom: 1px solid $color-white-low-opacity;
+  padding: $padding-base;
+  color: $color-font;
+}

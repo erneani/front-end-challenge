@@ -1,0 +1,15 @@
+@import '../../styles/variables.scss';
+
+.call-button-dropdown {
+  border-radius: $border-radius;
+  margin-top: $margin-wee;
+  transition: $time-duration all;
+  transform: translateX(-2rem);
+  position: absolute;
+  overflow: hidden;
+  height: 0;
+}
+
+.dropdown-show {
+  height: auto;
+}

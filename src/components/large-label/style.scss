@@ -6,4 +6,8 @@
   font-weight: $font-weight-semi-bold;
   color: $color-font;
   margin: $margin-large 0;
+
+  .label-previous-price {
+    text-decoration: line-through;
+  }
 }

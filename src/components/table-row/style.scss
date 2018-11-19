@@ -1,0 +1,22 @@
+@import '../../styles/variables.scss';
+
+.table-row {
+  text-align: left;
+  padding: $padding-wee;
+
+  .table-header {
+    font-family: $font-family-base;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-small;
+    padding: $padding-wee;
+    color: $color-gray-dark;
+  }
+
+  .table-element {
+    font-family: $font-family-base;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-small;
+    padding: $padding-wee;
+    color: $color-primary-base;
+  }
+}

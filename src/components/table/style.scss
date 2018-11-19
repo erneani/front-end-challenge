@@ -1,0 +1,26 @@
+@import '../../styles/variables.scss';
+
+.right-column-table {
+  padding: $padding-large $padding-base;
+  background-color: $color-gray-darker-high-opacity;
+  z-index: $z-index-ahead;
+  border-spacing: 0;
+
+  .table-title {
+    font-family: $font-family-base;
+    font-weight: $font-weight-light;
+    font-size: $font-size-extra-large;
+    margin-bottom: $margin-wee;
+    color: $color-font;
+  }
+
+  .table-body {
+    overflow-y: scroll;
+    display: block;
+    height: 350px;
+
+    .table-row:nth-child(odd) {
+      background-color: $color-white-extra-low-opacity;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.vertical-list-title {
+  margin-bottom: $margin-small;
+  font-family: $font-family-base;
+  font-weight: $font-weight-light;
+  font-size: $font-size-extra-large;
+  color: $color-font;
+}

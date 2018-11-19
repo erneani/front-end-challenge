@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+
+.versions-base {
+  background-position: center center;
+  background-color: $color-background-base;
+  background-image: url('../../images/empty_highway-wallpaper-1280x960.png');
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: $padding-large 0 $padding-base;
+  display: flex;
+  height: auto;
+  width: 100%;
+}

@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.vertical-list {
+  flex-direction: column;
+  text-align: right;
+  list-style: none;
+  display: flex;
+  padding: 0;
+}

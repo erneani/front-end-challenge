@@ -1,0 +1,11 @@
+@import "../../styles/variables.scss";
+
+.vertical-list-item {
+  text-transform: uppercase;
+  border-bottom: 1px solid $color-gray-dark;
+  font-family: $font-family-base;
+  font-weight: $font-weight-normal;
+  padding: $padding-small 0;
+  margin: 0;
+  color: $color-font;
+}

@@ -10,6 +10,7 @@ $color-secondary-light: 		lighten($color-secondary-base, 15%);
 
 $color-gray-base:           #242424;
 $color-gray-darker:         #2a2a2a;
+$color-gray-darker-high-opacity: rgba(42, 42, 42, 0.75);
 $color-gray-dark:           #797979;
 $color-gray:                hsl(0, 0%, 78%);
 $color-gray-light:          #eaeaea;
@@ -17,6 +18,7 @@ $color-gray-lighter:        #f4f4f4;
 $color-bluish-gray:        	#273341;
 $color-white:        				#fff;
 $color-white-low-opacity:   rgba(169, 169, 170, 0.4);
+$color-white-extra-low-opacity:   rgba(169, 169, 170, 0.1);
 $color-black:        				#1c1c1c;
 $color-darkness: 						#141518;
 

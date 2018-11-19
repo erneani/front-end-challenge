@@ -4,3 +4,13 @@ body {
   margin: 0;
   padding: 0;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: $color-black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $color-primary-base;
+  border-radius: $border-radius;
+}

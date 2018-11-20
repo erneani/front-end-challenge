@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+
+.serial-itens {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+
+  .serial-itens-title-label {
+    font-weight: $font-weight-light;
+    font-size: $font-size-extra-large;
+  }
+
+  .serial-itens-base {
+    height: 80px;
+    overflow-y: scroll;
+    white-space: pre-wrap;
+    width: 70%;
+  }
+}

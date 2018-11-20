@@ -1,8 +1,9 @@
 @import '../../styles/variables.scss';
 
 .right-column-table {
-  padding: $padding-large $padding-base;
   background-color: $color-gray-darker-high-opacity;
+  transform: translateY(-$padding-large);
+  padding: $padding-large $padding-base;
   z-index: $z-index-ahead;
   border-spacing: 0;
 
@@ -17,7 +18,7 @@
   .table-body {
     overflow-y: scroll;
     display: block;
-    height: 350px;
+    height: 250px;
 
     .table-row:nth-child(odd) {
       background-color: $color-white-extra-low-opacity;

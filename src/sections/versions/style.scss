@@ -5,9 +5,20 @@
   background-color: $color-background-base;
   background-image: url('../../images/empty_highway-wallpaper-1280x960.png');
   justify-content: space-evenly;
-  flex-direction: row;
+  flex-direction: column;
   padding: $padding-large 0 $padding-base;
   display: flex;
   height: auto;
   width: 100%;
+
+  .versions-base-top {
+    display: inline-flex;
+    justify-content: space-evenly;
+  }
+
+  .versions-base-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20%;
+  }
 }

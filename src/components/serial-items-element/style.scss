@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+.serial-item-element {
+  display: inline-block;
+  background-color: $color-primary-base;
+  border-radius: 15px;
+  margin-right: $margin-tiny;
+  font-family: $font-family-base;
+  font-weight: $font-weight-normal;
+  margin-top: $margin-wee;
+  font-size: $font-size-small;
+  padding: $padding-tiny $padding-small;
+  color: $color-font;
+}

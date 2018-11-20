@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from '../header-logo/HeaderLogo';
 import { Table } from '../table/Table';
+import { SerialItems } from '../serial-items/SerialItems';
 
 import './style.scss';
 

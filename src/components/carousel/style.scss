@@ -1,0 +1,76 @@
+@import '../../styles/variables.scss';
+
+.carousel-base {
+  margin-top: $margin-extra;
+  text-align: center;
+  margin: 0 auto;
+  height: 130%;
+  width: 80%;
+
+  .slick-dots {
+    li {
+      height: 10px;
+      width: 10px;
+
+      button {
+        &::before {
+          background-color: $color-black;
+          border-radius: 100%;
+          content: "";
+          height: 10px;
+          width: 10px;
+        }
+      }
+    }
+
+    .slick-active {
+      button {
+        &::before {
+          background-color: $color-primary-base;
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .vehicles-carousel-title {
+    font-weight: $font-weight-normal;
+    font-size: $font-size-h5;
+    color: $color-gray-darker;
+  }
+
+  img {
+    height: 100px;
+    margin: auto auto;
+  }
+
+  .slick-next {
+    background-color: $color-black-low-opacity;
+    height: 30px;
+    width: 30px;
+    color: $color-black-low-opacity;
+    right: -50px;
+    
+    &::before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      font-size: $font-size-base;
+      content: "\f054";
+    }
+  }
+
+  .slick-prev {
+    background-color: $color-black-low-opacity;
+    height: 30px;
+    width: 30px;
+    color: $color-black-low-opacity;
+    left: -50px;
+    
+    &::before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      font-size: $font-size-base;
+      content: "\f053";
+    }
+  }
+}

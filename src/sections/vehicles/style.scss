@@ -2,6 +2,9 @@
 
 .vehicles-base {
   background-color: $color-white;
+  overflow-x: hidden;
+  overflow-y: visible;
+  padding: $padding-ultra;
 
   .vehicles-title {
     font-weight: $font-weight-light;
@@ -12,8 +15,10 @@
   }
 
   .vehicles-title-underline {
-    margin: 0 auto;
-    width: 100px;
+    margin-bottom: $margin-largest;
     border-top: 1px solid rgba(55, 52, 53, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
   }
 }

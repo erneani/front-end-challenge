@@ -1,6 +1,7 @@
 @import '../../styles/variables.scss';
 
 .column-right-top {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 3/4;
 }

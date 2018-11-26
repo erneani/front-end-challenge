@@ -1,0 +1,6 @@
+@import '../../styles/variables.scss';
+
+.column-left {
+  grid-column: 2/3;
+  grid-row: 1/1;
+}

@@ -2,6 +2,12 @@
 
 .dropdown-item-list-element {
   border-bottom: 1px solid $color-white-low-opacity;
-  padding: $padding-base;
+  font-size: $font-size-base;
+  padding: $padding-small $padding-base;
   color: $color-font;
+
+  .dropdown-item-list-thin-element {
+    font-weight: $font-weight-light;
+    display: inline-flex;
+  }
 }

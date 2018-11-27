@@ -8,10 +8,12 @@ import './style.scss';
 export default class NavbarItem extends React.Component {
     render() {
         const haveIcon = this.props.icon;
-        return <li className="navbar-list-item">
+        return (
+          <li className="navbar-list-item">
             <a className="navbar-list-element">
                 { this.props.label }  {haveIcon ? <FontAwesomeIcon icon={ faAngleDown } /> : ''}
             </a>
         </li>
+        )
     }
 }

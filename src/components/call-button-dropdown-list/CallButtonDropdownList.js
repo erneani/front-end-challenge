@@ -1,10 +1,12 @@
 import React from 'react';
 
+import './style.scss';
+
 export default class CallButtonDropdownList extends React.Component {
   render() {
     return(
-      <ul>
-
+      <ul className="dropdown-list">
+        {this.props.children}
       </ul>
     )
   }

@@ -1,0 +1,34 @@
+@import '../../styles/variables.scss';
+
+.navbar-dropdown {
+  text-transform: uppercase;
+  font-family: $font-family-base;
+  font-weight: $font-weight-semi-bold;
+  font-size: $font-size-small;
+  overflow: hidden;
+  display: absolute;
+  cursor: pointer;
+  height: auto;
+  margin: auto 0;
+  color: $color-font;
+
+  .navbar-dropdown-wrapper {
+    background-color: $color-white;
+    margin-top: $margin-tiny;
+    box-shadow: 0 1px 24px $color-black-high-opacity;
+    position: absolute;
+    overflow: hidden;
+    height: 0;
+    color: $color-gray-darker;
+
+    .navbar-dropdown-list {
+      padding: $padding-base;
+    }
+  }
+
+  .navbar-dropdown-wrapper-show {
+    height: auto;
+    max-height: 270px;
+    overflow-y: scroll;
+  }
+}

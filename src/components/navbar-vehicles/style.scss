@@ -1,0 +1,20 @@
+@import '../../styles/variables.scss';
+
+.navbar-vehicle-list-item {
+  .navbar-vehicle-wrapper {
+    justify-content: space-around;
+    margin-left: $margin-base;
+    display: inline-flex;
+    margin: $margin-wee;
+
+    .navbar-vehicle-title {
+      font-weight: $font-weight-bold;
+      color: $color-gray-darker;
+      margin-right: 20px;
+    }
+
+    .navbar-vehicle-image-wrapper {
+      text-align: right;
+    }
+  }
+}

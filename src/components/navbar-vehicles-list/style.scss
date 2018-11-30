@@ -1,6 +1,16 @@
 @import '../../styles/variables.scss';
 
 .navbar-vehicles-list {
+  max-height: 270px;
+  overflow-y: scroll;
   list-style: none;
   padding: 0;
+
+  &::-webkit-scrollbar {
+    background-color: $color-black-alternative-low-opacity;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $color-black-alternative;
+  }
 }

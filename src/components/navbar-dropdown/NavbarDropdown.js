@@ -25,7 +25,7 @@ export default class NavbarDropdown extends React.Component {
             <div className="navbar-dropdown-label"> {this.props.label} <FontAwesomeIcon icon={faAngleDown} /> </div>
             <div className={`navbar-dropdown-wrapper ${this.state.dropdownShown?" navbar-dropdown-wrapper-show":""}`}>
               <div
-                className={"navbar-dropdown-list"}>
+                className={"navbar-dropdown-list "+this.props.listClassName}>
                 {this.props.children}
               </div>
             </div>

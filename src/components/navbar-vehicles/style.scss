@@ -1,6 +1,8 @@
 @import '../../styles/variables.scss';
 
 .navbar-vehicle-list-item {
+  width: 100%;
+  
   .navbar-vehicle-wrapper {
     justify-content: space-around;
     margin-left: $margin-base;

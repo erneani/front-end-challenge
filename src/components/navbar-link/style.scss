@@ -1,0 +1,8 @@
+@import '../../styles/variables.scss';
+
+.navbar-link {
+  .navbar-link-label {
+    font-weight: $font-weight-normal;
+    color: $color-gray-darker;
+  }
+}

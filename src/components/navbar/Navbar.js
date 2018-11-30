@@ -2,7 +2,7 @@ import React from 'react';
 import NavbarItem from '../navbar-item/NavbarItem';
 import NavbarDropdown from '../navbar-dropdown/NavbarDropdown';
 import CallButton from '../call-button/CallButton';
-import CommomLabel from '../commom-label/CommomLabel';
+import { NavbarLink } from '../navbar-link/NavbarLink';
 import { NavbarVehicles } from '../navbar-vehicles/NavbarVehicles';
 import { NavbarVehiclesList } from '../navbar-vehicles-list/NavbarVehiclesList';
 
@@ -27,10 +27,13 @@ export default class Navbar extends React.Component {
                   </NavbarVehiclesList>
                 </NavbarDropdown>
                 <NavbarItem label="Serviços" />
-                <NavbarDropdown label="Vendas diretas">
-                  <CommomLabel label="Etios Hatch 2017" className="color-black" />
-                  <CommomLabel label="Etios Sedã 2017" className="color-black" />
-                  <CommomLabel label="Etios Cross 2017" className="color-black" />
+                <NavbarDropdown listClassName="alternative-padding" label="Vendas diretas">
+                  <NavbarLink label="Empresas"/>
+                  <NavbarLink label="Frotistas"/>
+                  <NavbarLink label="Governo"/>
+                  <NavbarLink label="PCD"/>
+                  <NavbarLink label="Produtor rural"/>
+                  <NavbarLink label="Taxista"/>
                 </NavbarDropdown>
                 <CallButton label="Telefones"/>
             </ul>

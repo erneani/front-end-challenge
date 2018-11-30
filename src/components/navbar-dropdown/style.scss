@@ -22,13 +22,16 @@
     color: $color-gray-darker;
 
     .navbar-dropdown-list {
-      padding: $padding-base;
+      padding: $padding-base $padding-wee $padding-wee $padding-base;
+    }
+    
+    .alternative-padding {
+      padding: $padding-small;
+      padding-right: $padding-extra;
     }
   }
 
   .navbar-dropdown-wrapper-show {
     height: auto;
-    max-height: 270px;
-    overflow-y: scroll;
   }
 }
